@@ -39,16 +39,7 @@ CREATE TABLE IF NOT EXISTS `menus` (
   PRIMARY KEY (`idmenu`)
 ) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `menus`
---
 
-INSERT INTO `menus` (`idmenu`, `sideDish`, `starter`, `main`, `dessert`, `price`) VALUES
-(1, 'Pettipe pan', 'Ensalada Cesar', 'Carapulcra', 'Mazamorra', 15.30),
-(3, 'Pan pizza', 'Menestron', 'Adobo de carne', 'Arroz con Leche', 14.30),
-(4, 'Pan pizza', 'Ensalda Cesar', 'Seco de cabrito', 'Torta de chocolate', 14.30),
-(5, 'Pettipe pan', 'Causa Rellena', 'Aji de gallina', 'Torta helada', 11.20);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
